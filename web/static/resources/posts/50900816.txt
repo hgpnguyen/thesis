@@ -1,0 +1,1 @@
+Bài 3 tut 4 if a is greater than 0and √ a >b  then return 1; otherwise if a equals 0 or b / a is greater than 1 then return 2. cho em hỏi là: đặt trường hợp a= 0.25, b=0.4 tức thỏa điều kiện a>0,√ a >b, b/a>1 thì return bao nhiêu? Cảm ơn.

@@ -1,0 +1,68 @@
+.text-overflow-dynamic-container {
+    position: relative;
+    max-width: 100%;
+    padding: 0 !important;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    vertical-align: text-bottom !important;
+}
+.text-overflow-dynamic-ellipsis {
+    position: absolute;
+    white-space: nowrap;
+    overflow-y: visible;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    max-width: 100%;
+    min-width: 0;
+    width:100%;
+    top: 0;
+    left: 0;
+}
+.text-overflow-dynamic-container:after,
+.text-overflow-dynamic-ellipsis:after {
+    content: '-';
+    display: inline;
+    visibility: hidden;
+    width: 0;
+}
+
+table {
+  width: 100%;   // This can be set to whatever.
+}
+
+td div {
+  max-height: 1.5em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
+
+td div::after {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+*[data-href] {
+  cursor: pointer;
+}
+
+td a {
+  display:inline-block;
+  min-height:100%;
+  width:100%;
+  padding: 10px; /* add your padding here */
+}
+td {
+  padding:0; 
+  cursor: pointer;  
+}

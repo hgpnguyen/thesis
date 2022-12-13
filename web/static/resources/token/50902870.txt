@@ -1,0 +1,1 @@
+Điểm_Course _ Grade_Tân_Trần_Vĩnh wrote : Điểm đã được cập_nhật thành 7.5 . Có một lỗi nhỏ trong công_thức làm chênh lệnh khoảng 0.05 . Nhờ các em báo sớm , tôi đã kiểm lại tất_cả các trường_hợp khác . Thầy_Tân cho em hỏi . vậy nếu điểm tính ra 6.77 có làm_tròn lên 6.8 không thầy .

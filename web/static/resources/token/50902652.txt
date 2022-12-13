@@ -1,0 +1,1 @@
+GradeBook Mid_Term_Họ tên : Nguyễn_Tấn_Thông MSSV : 50902652 Điểm_Course _ Grade_Nguyễn_Tấn_Thông 50902652 Mong thầy tính lại điểm của em . Em tính assignment 1 stage 2 : 7.5% thì_ra kết_quả khác . Cảm_ơn thầy . Thắc_mắc KQ Test2 Nếu true / false là keywords thì case class BooleanLit không có tác_dụng gì cả . Vả_lại dòng 13 trang 2 lại không liệt_kê true , false là keywords .

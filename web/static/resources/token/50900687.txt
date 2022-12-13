@@ -1,0 +1,1 @@
+Re : Hỏi về 1 trường_hợp của real và cách ghi = regex trong scala số real có các trường_hợp này không : 0e - 4 , e - 5 Vậy trường_hợp này có được chấp_nhận không anh

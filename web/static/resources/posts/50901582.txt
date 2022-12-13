@@ -1,0 +1,1 @@
+Thắc mắc về output của String Thầy cho em hỏi là lúc output chuỗi String có cần phải bỏ 2 dấu ' ở 2 đầu String không ạ. Ví dụ như: const a='a'; thì output là [(const,a)] hay là [(const,'a')] ạ Em không thấy trong đặc tả có nói về phần output này ạ.Re:Function Not Return Mình cũng thử if (true) return 1; Kết quả là vẫn báo lỗi trên cả Netbeans lẫn Eclipse

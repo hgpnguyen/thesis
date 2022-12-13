@@ -1,0 +1,1 @@
+Các bạn cho mình hỏi về 1 testcase của chuỗi String theo minh ` ket qua la ` ` const ' identifier f ` = ' " ' ' ' ' " ' ' ' ` ; ' EOFCác bạn cho mình hỏi về 1 testcase của chuỗi String ` const ' identifier f ` = ' " ' ' ' ' " ` ' ' ` ; ' EOF

@@ -1,0 +1,1 @@
+vấn đề thầy nói hơi mâu thuẫn...??? Anh hùng đã nói là sol có thể sai. Toàn bộ string giữ nguyên ko biến đổigif nữa cảBắt 1 lỗi hay bắt tất cả. Mọi người cho hỏi là bài này mình bắt tất cả các lỗi hay chỉ bắt 1 lỗi thôi. nếu bắt hết thì hướng dẫn mình phần đó nằm ở đâu đc ko :)

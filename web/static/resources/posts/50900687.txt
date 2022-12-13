@@ -1,0 +1,1 @@
+Re:Hỏi về 1 trường hợp của real và cách ghi  = regex trong scala số real có các trường hợp này không: 0e-4 , e-5 Vậy trường hợp này có được chấp nhận không anh

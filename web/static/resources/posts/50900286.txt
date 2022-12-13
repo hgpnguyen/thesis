@@ -1,0 +1,1 @@
+có được dùng biến var thay cho val ?? không muốn var thì bạn có thể import util.DynamicVariablemột trường hợp về hằng chuỗi trường hợp đầu mình giống bạn trên =(( một đống lỗi

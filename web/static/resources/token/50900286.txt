@@ -1,0 +1,1 @@
+có được dùng biến var thay cho val ? ? không muốn var thì bạn có_thể import util . DynamicVariablemột trường_hợp về hằng chuỗi trường_hợp đầu mình giống bạn trên = ( ( một đống lỗi

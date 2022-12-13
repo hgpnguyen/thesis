@@ -1,0 +1,1 @@
+Re:Lỗi lời gọi hàm rỗng : foo(); mình nghĩ chỗ gọi hàm này có kiểu là FuncCallExprPT chứ ko phải là CallStmtPT đâu,CallStmtPT là kiểu của câu lệnh gọi procedure.

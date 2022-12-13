@@ -1,0 +1,15 @@
+Re:Kết quả assignment 1 - stage 2 Thầy cho em hỏi trong result của em có rất nhiều case Test bị lỗi này , cho em hỏi lỗi này là sao a ? Test 8 failed
+
+Correct result compares with your result
+
+1c1
+
+< line 3:8: unexpected token: booLean
+
+\ No newline at end of file
+
+---
+
+> line 3:8: unexpected token: booLean
+
+***************************Re:Testcase Bạn xem lại test 8 nha, sao kết quả mình ra: Cannot Assign to Constant: assign(y,7) không biết mình có hĩu sai chỗ nào hok bạn trả lời giúp mình.Re: giúp đỡ phần khai báo array identlst có kiểu List[String] nên các phần tử của nó sẽ có kiểu String.

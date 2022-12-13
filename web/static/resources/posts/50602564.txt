@@ -1,0 +1,21 @@
+Re:Các bạn cho mình hỏi về cái def Show tý nhé ! cơ bản thì dùng hàm clean() như mấy bạn trên kia. kết hợp thêm 1 số hàm về StringBuilder :Re:Kết quả assignment 1 - stage 2 Test 39 failed
+
+Correct result compares with your result
+
+1d0
+
+< line 3:16: unexpected token: 9.8
+
+\ No newline at end of file
+
+
+
+
+
+Em bị lỗi này hầu hết. Mong thầy xem xét.
+
+
+
+Nguyễn Quốc Toản
+
+MSSV: 50602564Re:Phân biệt SUB và NOT Tks Tan PhatRe:Hỏi về nhận dạng array ở stage 1 Khi test : const h = [23]; bên TOKEN => `const' identifier h `=' [23 `]' `;' EOF ben PARSER = > màn hình console trống trơn , không lỗi, không kêt quả các bạn biết vì sao không? ^^Re:Hỏi về nhận dạng array ở stage 1 @ Long Potter: mình sai chỗ phần real, nên mât' tong stage 1 :((. pm: tks bạnRe:Hỏi về nhận dạng array ở stage 1 nhưng còn trường hợp : ben PARSER = > màn hình console trống trơn , không lỗi, không kêt quả mình không biêt bắt mạch sao luônRe:Statements-IfStatement vẫn bị lỗi kiểu ở case a ~ b ~ c => new IfStmtPT( a, b, c ) a là cái ExprPT kiểu được trả về từ IfStmtPT , vậy sao lại báo lỗi, mình vẫn còn nhập nhằng chỗ kiểu này quá. bạn nào giúp mình với.Re:BooleanLiteral mình nghĩ là đúng vì mấy thầy định nghĩa StringLiteralPT là extend của LiteralPTRe: giúp đỡ phần khai báo array Ko bạn nào giúp mình đc ở cái arrayType sao :(Re: giúp đỡ phần khai báo array Scala ^^  wrote: def varDec: Parser[List[VarDecPT]] = ("var" ~> identlst <~ ":") ~ (varType <~ ";") ^^ { case a ~ b => { List(new VarDecPT(new IdPT(a), b)) } theo mình hiểu là phải lấy từng phần tử của identlst để new VarDecPT, mà code như sau thì bị lỗi case a ~ b => a.map( x => List(new VarDecPT(new IdPT(x), b)) ) :((( vẫn bị lỗi ở dòng map Dòng map bỏ List trước new VarDecPT đi vì trong hàm map nó tự động tạo 1 List cho các phần tử sau => nên bạn thêm List vào đó bị dư nó báo lỗi List[List[.....]]Khai báo const def constDec: Parser[ConstDecPT] = ( "const"~> ident <~ "=" ) ~ (intLiteral <~";" ) ^^ { case a ~ b => new ConstDecPT(new IdPT(a), b) } mình khai báo const cho int như trên, nhưng sao nó báo lỗi chỗ: def oneDec: Parser[List[SubtinePT]] = varDec | constDec | procDec ^^ { case a => List(a) } các bạn giúp mình với.Re:Khai báo const ^^, tks bạn. lúc đầu mĩnh nghĩ là cả cụm ( varDec | constDec | procDec) sẽ dùng chung với { case a => List(a) }Re:Mấy bạn cho mình hỏi lỗi này vấn đề 2 bạn sửa lại dấu (a :\ lst) =>>>>> (a /: lst)Re:Mấy bạn cho mình hỏi lỗi này @M.U, đúng là mình lầm lẫn chỗ đó. mình nghĩ đây là 1 cách : rep( expr ~ ("^")) ~ exprRe:Hỏi về Array Type và Array Element @Tri: cách của Trí đúng rồi đó @ Theo van NasregasRe:Hỏi về Array Type và Array Element BUT khi parser:var z: array [1] of integer; thì báo lỗi ở OF: var z: array [1] of integer;Re:Hỏi về Array Type và Array Element :D, fixed được rồi. do dư khoảng trắng sau of "of "Re:Hỏi về Array Type và Array Element bạn check lại primitiveType xem hoặc test trước với integerType xem

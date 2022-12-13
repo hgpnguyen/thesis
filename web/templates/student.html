@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/style/style.css"> 
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="/static/bootstrap/js/jquery-1.9.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+	
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/jquery-1.12.4.js"></script>
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/dataTables.bootstrap4.min.js"></script>
+	</head>
+<body>
+  
+<div class="container-fluid">
+<div class="jumbotron">
+  <div style="text-align:right">
+  	{{CUsername}} |
+	<a href="/logout">
+          <span class="glyphicon glyphicon-log-out"></span>Log out
+        </a></div>
+  <h1>Study status prediction</h1>
+  <h2>Principles of Programming Languages (505003)</h2>
+  <h3>Semester 1 - Year 2011<h3>
+</div>
+  <div class="row">
+    <div class="col-sm-2">
+		<a href='/students' class="list-group-item">Student list</a>
+		<a href='/statistic' class="list-group-item">Prediction result</a>
+    </div>
+    <div class="col-sm-10">
+		<h2>Student Infomation</h2>
+		<br>
+		<div class="row">
+			<div class='col-sm-3'>ID: </div>
+			<div class='col-sm-7'><p id="MSSV">{{MSSV}}</p></div>
+			<div class='col-sm-4'></div>
+		</div>
+		<div class="row">
+			<div class='col-sm-3'>UserName: </div>
+			<div class='col-sm-7'><p id="username">{{UserName}}</p></div>
+			<div class='col-sm-4'></div>
+		</div>
+		<div class="row">
+			<div class='col-sm-3'>Number of posts: </div>
+			<div class='col-sm-7'><p id="posts">{{NumPost}}</p></div>
+			<div class='col-sm-4'></div>
+		</div>
+		{% if predict %}
+			<div class="row">
+				<div class='col-sm-3'>Prediction </div>
+				<div class='col-sm-7'><p id="predict">{{ predict|safe }}</p></div>
+				<div class='col-sm-4'></div>
+			</div>
+		{% endif %}
+		<br>
+		<h3>Scores</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Tut 1</th>
+					<th>Lab 2</th>
+					<th>Tut 2</th>
+					<th>Lab 3</th>
+					<th>Assignment 1 -  Stage 1</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					{% for score in scores %}
+						<td>{{ score }}</td>
+					{% endfor %}
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<br>
+		<h3>Posts</h3>
+		<table id="posts_table" class="table" style="table-layout: fixed;width: 100%;">
+			<col width="15%">
+			<col width="20%">
+			<col width="65%">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Title</th>
+					<th>Content</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for post in posts %}
+					<tr>
+						<td><div title="{{ post['date'] }}">{{ post['date'] }}</div></td>
+						<td><div title="{{ post['title'] }}">{{ post['title'] }}</div></td>
+						<td><div title="{{ post['content'] }}">{{ post['content'] }}</div></td>
+					</tr>
+				{% endfor %}
+				
+			</tbody>
+		</table>
+	</div>
+  </div>
+</div>
+</body>
+<script>
+$(document).ready(function(){
+    $('#posts_table').DataTable();
+	
+});
+</script>
+</html>  

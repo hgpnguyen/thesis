@@ -1,0 +1,1 @@
+Re : GradeBook Mid_Term_Nguyễn_Văn_Viên MSSV : 50802756 Nhờ thầy xem_lại bài giúp ! Re : Tên file cần nộp . chết_thật ! IF_ESLE có bạn nào cho cho mình biết rỏ hơn về mô_tả ì và else cái ; cái if else bản_thân nó kết_thúc có cần dấu " ; " ko ? hay_là của stament ? mập_mờ quá ? vd : if a + b then a : = b ; hay if a + b then a : = b ; ; tương_tự với if else ? ?

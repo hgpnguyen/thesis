@@ -1,0 +1,1 @@
+Re : Thắc_mắc KQ Test2 Bạn xem_lại kỹ đề đi . Đó là kiểu Boolean mà output ra 1 token như_vậy là đúng rồi Re : dấu_chấm Mình dùng \ \ . chạy ok mà bạn Cách compile các file Anh Hùng có_thể hướng_dẫn tụi em cách compile những file này như_thế_nào được ko ạh ?

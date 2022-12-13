@@ -1,0 +1,1 @@
+Các bạn ơi! Giúp mình phần StringLit với viet them mot ham khac :(( def stringLit: Parser[StringLiteralPT] = elem("string", _.isInstanceOf[lexical.StringLit]) ^^ { a => new StringLiteralPT(a.chars)}oneDec,oneStmt có gì ?? minh thi oneDec:varDec, constDec, procDec, funcDec onStmt: constDec, stmt, varDec

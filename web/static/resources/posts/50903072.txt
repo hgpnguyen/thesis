@@ -1,0 +1,1 @@
+Re:Hỏi về dạng opt(...) ^^ {..} Scala ^^  wrote: vi dụ nha repsep(ident,";") sẽ tạo ra một list: ident;ident;....ident . list này có thể rỗng cám ơn bạn, bây giờ xài cái ví dụ của bạn, nếu input là 1 cái ident thôi mà ko có dấu chấm phẩy, thì qua cái repsep(ident,";") đó, nó trả về cái gì? cái list có một phần tử là ident hay là nó ko nhận và trả về list rổng? Cám ơn lần nửa

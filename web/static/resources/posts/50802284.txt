@@ -1,0 +1,1 @@
+Re:Thắc mắc KQ Test2 Bạn xem lại kỹ đề đi.Đó là kiểu Boolean mà output ra 1 token như vậy là đúng rồiRe:dấu chấm Mình dùng \\. chạy ok mà bạnCách compile các file Anh Hùng có thể hướng dẫn tụi em cách compile những file này như thế nào được ko ạh?

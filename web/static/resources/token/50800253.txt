@@ -1,0 +1,1 @@
+hỏi về " delim " trong class CrazyLexical Thầy/các bạn cho hỏi về hàm delim trong hàm toke . nó có ý_nghĩa gì , tìm nó ở đâu ( trong class nào ) với Scala doc

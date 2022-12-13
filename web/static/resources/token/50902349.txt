@@ -1,0 +1,1 @@
+vấn_đề thầy nói hơi mâu_thuẫn ... ? ? ? Anh_hùng đã nói là sol có_thể sai . Toàn_bộ string giữ nguyên ko biến đổigif nữa cả Bắt 1 lỗi hay bắt tất_cả . Mọi người cho hỏi là bài này mình bắt tất_cả các lỗi hay chỉ bắt 1 lỗi thôi . nếu bắt hết thì hướng_dẫn mình phần đó nằm ở đâu đc ko : )

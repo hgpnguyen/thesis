@@ -1,0 +1,1 @@
+GradeBook Mid Term Tên: Trần Ngọc Thành MSSV: 50902484 Thầy xem lại bài em với. Em cảm ơn Thầy.Re:Về kết quả ass1 stage2 Thưa thầy,em cũng bị trường hợp như mấy bạn,định dạng output của em dư 1 dấu cách,làm fail nhiều test,bao nhiêu công sức bỏ ra....mong thầy xem xét dùm em ạ. Trần Ngọc Thành MSSV: 50902484

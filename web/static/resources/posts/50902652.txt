@@ -1,0 +1,1 @@
+GradeBook Mid Term Họ tên: Nguyễn Tấn Thông MSSV: 50902652Điểm Course_Grade Nguyễn Tấn Thông 50902652 Mong thầy tính lại điểm của em. Em tính assignment 1 stage 2: 7.5% thì ra kết quả khác. Cảm ơn thầy.Thắc mắc KQ Test2 Nếu true / false là keywords thì case class BooleanLit  không có tác dụng gì cả. Vả lại dòng 13 trang 2 lại không liệt kê true, false là keywords.

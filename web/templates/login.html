@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/style/login.css"> 
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
+	
+	<script type="text/javascript" src="/static/bootstrap/js/jquery-1.9.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/jquery-1.12.4.js"></script>
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="/static/DataTables/dataTables.bootstrap4.min.js"></script>
+		</head>
+<body>
+<div class="jumbotron">
+  <h1>Study status prediction</h1>
+  <h2>Principles of Programming Languages (505003)</h2>
+  <h3>Semester 1 - Year 2011<h3>
+</div>
+  
+<div class="container">
+	<div >
+    	  <div>
+				<div class="loginmodal-container">
+					<h2>Login</h2><br>
+					{% if error %}<p class=error style='color:red'><strong>Error:</strong> {{ error }}{% endif %}
+				  <form action="http://localhost:5000/" method="POST">
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+
+				</div>
+			</div>
+		  </div>
+</div>
+</body>
+</html>

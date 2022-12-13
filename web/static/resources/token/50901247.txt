@@ -1,0 +1,1 @@
+Mot truong hop trong chuoi string Cho mình hỏi nếu mình có một chuỗi ' abc ef ' Thì khi output trả về là " ' abc ef ' " hay_là ` ' ' identifier abc identifier de ` ' '

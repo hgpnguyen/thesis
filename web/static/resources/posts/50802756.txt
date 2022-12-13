@@ -1,0 +1,1 @@
+Re:GradeBook Mid Term Nguyễn Văn Viên MSSV:50802756 Nhờ thầy xem lại bài giúp!Re:Tên file cần nộp. chết thật!IF ESLE  có bạn nào cho cho mình biết rỏ hơn về mô tả ì và else cái; cái if else bản thân nó kết thúc có cần dấu "; " ko? hay là của stament? mập mờ quá? vd: if a+b then a:=b; hay if a+b then a:=b;; tương tự với if else ??

@@ -1,0 +1,1 @@
+Điểm Course_Grade Tân Trần Vĩnh wrote: Điểm đã được cập nhật thành 7.5. Có một lỗi nhỏ trong công thức làm chênh lệnh khoảng 0.05. Nhờ các em báo sớm, tôi đã kiểm lại tất cả các trường hợp khác. Thầy Tân cho em hỏi. vậy nếu điểm tính ra 6.77 có làm tròn lên 6.8 không thầy.

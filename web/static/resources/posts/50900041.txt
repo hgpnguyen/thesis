@@ -1,0 +1,9 @@
+Kết quả assignment 1 - stage 2 Thưa thầy, em có sai sót trong phần nộp bài, do không xem kĩ trong phần Notice, nên em đã đổi tên file nộp lại là crazy2011.scala(viết thường) dẫn đến thầy không nhận được file. Mong thầy xem bài lại dùm em. 
+
+Em cảm ơn thầy.
+
+
+
+MSSV: 50900041	
+
+HT  : Bùi Tuấn AnhRe:Kết quả assignment 1 - stage 2 Thưa thầy, nếu có thể xin thầy chấm lại cho trường hợp đổi tên file nộp (chữ thường) sớm hơn được không thầy, vì các bài này chưa được chấm qua máy, không biết có các lỗi UTF-8 hoặc các lỗi khác để thắc mắc kịp thời hạn của thầy. Em cám ơnRe:Kết quả assignment 1 - stage 2 
